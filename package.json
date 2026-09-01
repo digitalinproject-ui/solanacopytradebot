@@ -1,21 +1,20 @@
 {
-  "name": "solana-copytrade-bot",
-  "version": "1.0.0",
-  "description": "",
+  "name": "anubis-multichain-bot",
+  "version": "2.0.0",
+  "description": "Anubis Terminal v2 - Multi-chain Copy Trade & Sniper Bot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["solana", "evm", "copytrade", "sniper", "telegram"],
+  "author": "Digitalin",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "@jup-ag/api": "^6.0.48",
     "@solana/web3.js": "^1.98.4",
     "bs58": "^6.0.0",
     "cross-fetch": "^4.1.0",
     "dotenv": "^17.4.2",
-    "node-telegram-bot-api": "^2.1.0"
+    "ethers": "^6.13.0"
   }
 }
